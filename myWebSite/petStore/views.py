@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse('this is an index page of petstore')
+
+def products(request):
+    return HttpResponse('<h1>Product page<h1>')
